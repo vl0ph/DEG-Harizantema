@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДЭГ - Харизантема</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #000;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo svg {
+            width: 80px;
+            height: 80px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .title h1 {
+            font-size: 1.5em;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .title p {
+            font-size: 0.9em;
+            opacity: 0.6;
+            letter-spacing: 1px;
+        }
+
+        .alert {
+            border: 2px solid #dc143c;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .alert-icon {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .alert h2 {
+            font-size: 1.3em;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #dc143c;
+        }
+
+        .alert p {
+            font-size: 1em;
+            line-height: 1.6;
+            opacity: 0.8;
+        }
+
+        .info {
+            border: 1px solid #333;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .info h3 {
+            font-size: 1.1em;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #dc143c;
+        }
+
+        .info p {
+            font-size: 0.95em;
+            line-height: 1.8;
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+
+        .address {
+            border: 1px solid #dc143c;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .address p {
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+
+        .address strong {
+            font-size: 1.2em;
+            color: #dc143c;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 600px) {
+            .alert {
+                padding: 30px 20px;
+            }
+
+            .info {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 5 L55 30 L75 10 L65 35 L95 25 L75 45 L100 50 L75 55 L95 75 L65 65 L75 90 L55 70 L50 95 L45 70 L25 90 L35 65 L5 75 L25 55 L0 50 L25 45 L5 25 L35 35 L25 10 L45 30 Z" fill="#dc143c"/>
+                <path d="M50 20 L53 35 L65 22 L60 38 L80 32 L67 45 L85 50 L67 55 L80 68 L60 62 L65 78 L53 65 L50 80 L47 65 L35 78 L40 62 L20 68 L33 55 L15 50 L33 45 L20 32 L40 38 L35 22 L47 35 Z" fill="#dc143c"/>
+                <circle cx="50" cy="50" r="8" fill="#dc143c"/>
+            </svg>
+        </div>
+
+        <div class="title">
+            <h1>ДИСТАНЦИОННОЕ ЭЛЕКТРОННОЕ ГОЛОСОВАНИЕ</h1>
+            <p>ГОРОД ХАРИЗАНТЕМА</p>
+        </div>
+
+        <div class="alert">
+            <div class="alert-icon">⚠</div>
+            <h2>СЕРВЕРЫ НЕДОСТУПНЫ</h2>
+            <p>Технические работы из-за беспрецедентного наплыва пользователей</p>
+        </div>
+
+        <div class="info">
+            <h3>Альтернативный способ голосования</h3>
+            <p>В связи с техническими проблемами просим прибыть на избирательный участок для очного голосования.</p>
+            <div class="address">
+                <p>Избирательный участок</p>
+                <strong>Посмертие, 1</strong>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3>Важная информация</h3>
+            <p>• Возьмите документ, подтверждающий личность</p>
+            <p>• Участок работает до 20:00</p>
+            <p>• Техническая команда работает над восстановлением</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Избирательная комиссия города Харизантема</p>
+        </div>
+    </div>
+</body>
+</html>
